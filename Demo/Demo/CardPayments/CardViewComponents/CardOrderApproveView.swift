@@ -16,7 +16,7 @@ struct CardOrderApproveView: View {
 
     @ObservedObject var cardPaymentViewModel: CardPaymentViewModel
     @State private var cardNumberText: String = "4111 1111 1111 1111"
-    @State private var expirationDateText: String = "01 / 25"
+    @State private var expirationDateText: String = "01 / 27"
     @State private var cvvText: String = "123"
 
     var body: some View {
